@@ -8,3 +8,104 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: #540B51;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-bottom: solid 1px grey;
+}
+
+header {
+    padding: 20px;
+}
+
+#left-flexbox {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 25%;
+}
+
+#right-flexbox {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: end;
+    width: 15%;
+}
+
+#right-flexbox > button {
+    background-color: #540B51;
+    border: none;
+
+}
+
+h1, header p {
+    color: white;
+    text-align: center;
+    padding: 0 10px;
+    font-family: sans-serif;
+}
+
+#yellow-text {
+    color: #ECB12F;
+    font-weight:bold;
+}
+
+#button-div {
+    text-align: center;
+}
+
+header button {
+    width: 100%;
+    margin: 5px 0px;
+    height: 40px;
+    padding: 4px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    border: none;
+    color:#540B51;
+    font-weight: bold;
+}
+
+#flexbox-button {
+    background-color: #4285F4;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 0 20px 0;
+}
+
+#google-img {
+    height: 100%;
+    width: auto;
+    background-color: white;
+    border-radius: 2px;
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: center; */
+}
+
+#flexbox-button span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 0 40px 0 0;
+
+}
+
+#hero-img {
+    width: 155%;
+}
