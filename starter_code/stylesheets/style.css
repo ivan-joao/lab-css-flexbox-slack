@@ -16,6 +16,7 @@ img {
 body {
     background-color: #540B51;
     margin: 0;
+    font-family: sans-serif;
 }
 
 nav {
@@ -26,7 +27,7 @@ nav {
 }
 
 header {
-    padding: 20px;
+    padding: 0px;
 }
 
 #left-flexbox {
@@ -64,11 +65,12 @@ h1, header p {
 
 #button-div {
     text-align: center;
+    padding: 0px 20px;
 }
 
 header button {
     width: 100%;
-    margin: 5px 0px;
+    margin: 8px 0px;
     height: 40px;
     padding: 4px;
     text-transform: uppercase;
@@ -107,5 +109,208 @@ header button {
 }
 
 #hero-img {
-    width: 155%;
+    width: 147%;
+}
+
+#hero-div {
+    overflow: hidden;
+    margin: 0;
+    padding: 0%;
+}
+
+#first-section {
+    background-color: #F3EAE2;
+    padding: 20px;
+}
+
+#first-section p {
+    text-transform: uppercase;
+    font-size: small;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+main {
+    background-color: #F3EAE2;
+
+}
+
+#logo-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#logo-div img {
+    height: 30px;
+    width: auto;
+    padding-bottom: 25px;
+}
+
+
+#mobile-1, #mobile-2, #mobile-3 {
+    width: 95%;
+}
+#mobile-div {
+    text-align: right;
+}
+
+#text-one, #text-two, #text-three {
+    padding: 0px 15px 50px 15px;
+}
+#text-three {
+    padding-bottom: 30px;
+}
+
+#text-one a, #text-two a, #text-three a {
+    text-decoration: none;
+    color: #2E71A6;
+}
+#icon-arrow {
+    padding-left: 10px;
+    height: 10px;
+    width: 15px;
+}
+#fourth-section {
+    background-color: white;
+    padding: 50px 15px 30px 15px;
+}
+#fourth-section h3, #fith-section h3 {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0px 35px;
+}
+#fourth-section p {
+    text-align: center;
+    padding: 0px 10px;
+}
+#button-teams {
+    display: flex; 
+    flex-direction: column;
+}
+#button-teams button {
+    margin-bottom: 10px;
+    height: 40px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    border-radius: 2px;
+}
+#first-button {
+    color: white;
+    background-color: #540B51;
+    border: none;
+}
+#second-button {
+    color: #540B51;
+    background-color: white;
+    border: solid 1px #540B51;
+}
+#ul-stats {
+    list-style-type: none;
+    padding: 0;
+    margin: 50px 10px;
+    text-align: center;
+}
+#ul-stats span {
+    color: #540B51;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+#ul-stats p + p {
+    font-weight: bold;
+    font-size: 0.8em;
+    padding: 0px 70px;
+    margin: 0;
+}
+#ul-stats p {
+    margin: 30px 0px 5px 0px;
+}
+#fith-section {
+    background-color: #540B51;
+    margin: 0;
+    padding: 30px 15px 30px 15px;
+}
+#fith-section h3 {
+    color: white;
+}
+#third-button {
+    color: white;
+    background-color: #540B51;
+    border: solid 1px white;
+}
+#fourth-button {
+    color: #540B51;
+    background-color: white;
+    border: none;
+}
+footer {
+    background-color: white;
+    color: #454245;
+}
+footer img {
+    width: 15%;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#footer-menu {
+    display:flex;
+    justify-content:flex-start;
+    flex-shrink: 1;
+}
+#footer-menu li {
+    list-style-type: none;
+    padding: 10px 5px;
+}
+#bold-text {
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+hr {
+    border: solid #454245 0.01px;
+    margin: 10px 10px 20px 10px;
+}
+ul {
+    list-style-type: none;
+}
+
+#bottom-page {
+    margin-top: 60px;
+}
+#bottom-page li {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+#social-media {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 30px;
+    padding: 0;
+}
+small {
+    font-size: x-small;
+    text-align: center;
+}
+#download-img, #region-img {
+    height: auto;
+    width: 5%;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+#download-flex, #region-flex {
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    margin: 10px 0px;
+}
+#download-flex li {
+    margin-top: 0px;
+    color: #2E71A6;
+}
+#region-flex li {
+    margin-top: 0px;
 }
