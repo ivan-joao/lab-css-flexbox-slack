@@ -24,10 +24,12 @@ nav {
     justify-content: space-between;
     padding: 15px 20px;
     border-bottom: solid 1px grey;
+    background-color: #540B51;
 }
 
 header {
     padding: 0px;
+    background-color: #540B51;
 }
 
 #left-flexbox {
@@ -64,6 +66,8 @@ h1, header p {
 }
 
 #button-div {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     padding: 0px 20px;
 }
@@ -152,6 +156,9 @@ main {
 #mobile-1, #mobile-2, #mobile-3 {
     width: 95%;
 }
+#mobile-1-1, #mobile-2-1, #mobile-3-1 {
+    display: none;
+}
 #mobile-div {
     text-align: right;
 }
@@ -185,11 +192,11 @@ main {
     text-align: center;
     padding: 0px 10px;
 }
-#button-teams {
+#button-teams, #button-teams2 {
     display: flex; 
     flex-direction: column;
 }
-#button-teams button {
+#button-teams button, #button-teams2 button {
     margin-bottom: 10px;
     height: 40px;
     text-transform: uppercase;
@@ -320,3 +327,131 @@ hr {
 footer small {
     font-size: x-small;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #header-section {
+        display: flex;
+        height: 700px;
+        align-items: center;
+        background-image: url('../images/background-singup.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 50px;
+    }
+    #header-div h1 {
+        text-align: left;
+        font-size: 4em;
+        align-items: baseline;
+    } 
+    #header-div p {
+        text-align: left;
+        padding-right: 20%;
+        font-size: 1.3em;
+    }
+    #header-div {
+        margin-left: 15px;
+    }
+    #first-section {
+        padding-top: 40px;
+    }
+    #button-teams {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #first-button {
+        margin-right: 20px;
+        width: 300px;
+    }
+    #second-button {
+        width: 150px;
+    }
+    #ul-stats {
+        display: flex;
+        margin: 30px 0px;
+        padding: 0;
+    }
+    #button-teams2 {
+        display: flex;
+        flex-direction: column;
+    }
+    #third-button, #fourth-button {
+        margin: 5px 70px;
+        height: 40px;
+        width: auto;
+    }
+    #download-img, #region-img {
+        width: 20px;
+        height: auto;
+    }
+    footer img {
+        height: 70px;
+        width: auto;
+    }
+    #mobile-1, #mobile-2, #mobile-3 {
+        width: 80%;
+        height: auto;
+    }
+    #mobile-1 {
+        background-image: url('../images/connectedness.png');
+    }
+    #text-one, #text-two, #text-three {
+        margin-left: 20%;
+        margin-right: 20%;
+        line-height: 1.5;
+        margin-top: 5%;
+    }
+    #left-flexbox img {
+        width: 100px;
+        height: auto;
+    }
+    #button-div {
+        padding: 0;
+        margin-left: 5px;
+    }
+    #hero-img {
+        margin-left: 30%;
+        display: flex;
+        align-items: center;
+    }
+    footer {
+        padding-bottom: 50px;
+    }
+    #mobile-1, #mobile-2, #mobile-3 {
+        display: none;
+    }
+    #mobile-1-1, #mobile-3-1 {
+        display: block;
+        width: 85%;
+        margin-top: 20px;
+    }  
+    #mobile-2-1 {
+        display: block;
+        width: 85%;
+        position: relative;
+        float: right;
+        margin-bottom: 50px;
+        }
+    #social-media {
+        justify-content: flex-start;
+        margin-left: 30px;
+    }
+    #social-media i {
+        padding: 0;
+        margin-right: 80px;
+    }
+    #bottom-page {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #footer-menu {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
